@@ -1,0 +1,22 @@
+ColumnName,Description
+addr_state,The state provided by the borrower in the loan application
+annual_inc,The self-reported annual income provided by the borrower during registration.
+delinq_2yrs,The number of 30+ days past-due incidences of delinquency in the borrower's credit file for the past 2 years
+dti,"A ratio calculated using the borrower’s total monthly debt payments on the total debt obligations, excluding mortgage and the requested LC loan, divided by the borrower’s self-reported monthly income."
+emp_length,Employment length in years. Possible values are between 0 and 10 where 0 means less than one year and 10 means ten or more years. 
+grade,LC assigned loan grade
+home_ownership,"The home ownership status provided by the borrower during registration or obtained from the credit report. Our values are: RENT, OWN, MORTGAGE, OTHER"
+inq_last_6mths,The number of inquiries in past 6 months (excluding auto and mortgage inquiries)
+int_rate,Interest Rate on the loan
+loan_amnt,"The listed amount of the loan applied for by the borrower. If at some point in time, the credit department reduces the loan amount, then it will be reflected in this value."
+loan_status,Current status of the loan
+mths_since_last_delinq,The number of months since the borrower's last delinquency.
+mths_since_last_record,The number of months since the last public record.
+purpose,A category provided by the borrower for the loan request. 
+revol_bal,Total credit revolving balance
+revol_util,"Revolving line utilization rate, or the amount of credit the borrower is using relative to all available revolving credit."
+total_acc,The total number of credit lines currently in the borrower's credit file
+verification_status,"Indicates if income was verified by LC, not verified, or if the income source was verified"
+loan_term_year,Loan term in year
+repaid,"1 if the loan is paid in full, 0 if charged off"
+annual_return,"Annual return of the investment on the loan, based on the assumption that monthly payment is reinvested at 5% annual return"
