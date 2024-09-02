@@ -1,19 +1,19 @@
-ColumnName,Description
-addr_state,The state provided by the borrower in the loan application
+Column Name,Description
+addr_state,The state provided by the borrower in the loan application.
 annual_inc,The self-reported annual income provided by the borrower during registration.
-collection_recovery_fee,post charge off collection fee
-dti,"A ratio calculated using the borrower’s total monthly debt payments on the total debt obligations, excluding mortgage and the requested LC loan, divided by the borrower’s self-reported monthly income."
+collection_recovery_fee,Post charge off collection fee.
+dti,"A ratio calculated using the borrower's total monthly debt payments on the total debt obligations, excluding mortgage and the requested LC loan, divided by the borrower's self-reported monthly income."
 emp_length,Employment length in years. Possible values are between 0 and 10 where 0 means less than one year and 10 means ten or more years. 
-grade,LC assigned loan grade
-home_ownership,"The home ownership status provided by the borrower during registration or obtained from the credit report. Our values are: RENT, OWN, MORTGAGE, OTHER"
-int_rate,Interest Rate on the loan
+grade,LC assigned loan grade.
+home_ownership,"The home ownership status provided by the borrower during registration or obtained from the credit report. Possible values are: RENT, OWN, MORTGAGE, OTHER."
+int_rate,Interest Rate on the loan.
 loan_amnt,"The listed amount of the loan applied for by the borrower. If at some point in time, the credit department reduces the loan amount, then it will be reflected in this value."
 loan_status,Current status of the loan
 purpose,A category provided by the borrower for the loan request. 
-recoveries,post charge off gross recovery
-total_acc,The total number of credit lines currently in the borrower's credit file
-total_pymnt,Payments received to date for total amount funded
-verification_status,"Indicates if income was verified by LC, not verified, or if the income source was verified"
+recoveries,Post charge off gross recovery.
+total_acc,The total number of credit lines currently in the borrower's credit file.
+total_pymnt,Payments received to date for total amount funded.
+verification_status,"Indicates if income was verified by LC, not verified, or if the income source was verified."
 loan_term_year,Loan term in year.
 repaid,"1 if loan status is fully paid,0 if charged off."
 annual_return,"Annual return of the investment on the loan, calculated from payment information, based on the assumption that monthly payment is reinvested at 5% annual return."
